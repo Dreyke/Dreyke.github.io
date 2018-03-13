@@ -1,37 +1,189 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+            integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+            integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="Home-Styling.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400" rel="stylesheet">
 
-You can use the [editor on GitHub](https://github.com/Dreyke/Dreyke.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <title>Dreyke Boone Portfolio</title>
+</head>
+<body>
 
-### Markdown
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <a class="navbar-brand" href="#">Dreyke Boone</a>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-4">
+                <li class="nav-item">
+                    <a class="nav-link" data-value="about" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-value="projects" href="#projects">Projects</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-```markdown
-Syntax highlighted code block
+    <!-- header -->
+    <header class="header">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="description text-center">
+                <h2>
+                    Hello. I am Dreyke.
+                    <p>
+                        Software Engineer. IT Specialist. Project Manager.
+                    </p>
 
-# Header 1
-## Header 2
-### Header 3
+                    <!-- this button currently doesn't function. Will add functionality latter -->
+                    <button class="btn btn-outline-secondary">See more</button>
+                </h2>
+            </div>
+        </div>
+    </header>
 
-- Bulleted
-- List
+    <!-- About section -->
+    <div class="about" id="about">
+        <div class="container">
+            <h1 class="text-center">About</h1>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <img src="headshot.png" class="img-fluid">
+                    <span class="text-justify">Technical Project Specialist</span>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-12 desc">
 
-1. Numbered
-2. List
+                    <h3>Dreyke Boone</h3>
+                    <p>
+                        Based in Minneapolis, MN, I’m fortunate enough to be working as a technical project specialist
+                        for G2Planet while completing my degree in Software Development. Over the past 7 years, I’ve
+                        worked in residential foreclosure markets, both residential and commercial security,
+                        telecommunications, creative arts, commercial real estate development, information technology
+                        for a non-profit, and software development. This has lead to skills in Python, Java, jQuery, C#,
+                        PostgreSQL, Agile & Waterfall methodologies, and more.
+                        Have a cool project? Get in touch!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-**Bold** and _Italic_ and `Code` text
+    <!-- portfolio section -->
+    <div class="projects" id="projects">
+            <h1 class="text-center">Projects</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="card-deck">
 
-[Link](url) and ![Image](src)
-```
+                        <!-- used bootstrap cards to create individual cards.
+                        need to add code rather than job descriptions, will improve in the future -->
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">G2Planet</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Role: Technical Project Specialist</h6>
+                                <p class="card-text">
+                                    Develop and maintain project plans for software enhancement and bug fixes.
+                                    Convert requirements and design documents into a set of testing cases.
+                                    Conduct research on new technologies and alternative methods of efficiency.
+                                </p>
+                            </div>
+                        </div>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">The Y (YMCA) </h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Role: Project Manager & BT Analyst</h6>
+                                <p class="card-text">
+                                    Oversaw a security upgrade of all computers at 44 Minnesota YMCA locations.
+                                    This involved patching Windows 10 to the correct build/version after major worldwide malware attack.
+                                    Assisted with the implementation of ServiceNow over the course of 3 months.
+                                </p>
+                            </div>
+                        </div>
 
-### Jekyll Themes
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">United Properties</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Role: IT Intern</h6>
+                                <p class="card-text">
+                                    Successfully upgraded entire organizations computers from Windows 7 to Windows 10, including migrating to a new domain.
+                                    Built internal SharePoint site according to management instructions related to file organization. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- creates a second row of cards -->
+                <div class="row">
+                    <div class="card-deck">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Stanley Security Solutions</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Role: Tier II Data Entry/RAM Specialist</h6>
+                                <p class="card-text">
+                                    Assisted technicians in the field with programming security panels using remote programming software.
+                                    Worked closely with team members to exceed all customer requirements.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">HomeStar Property Solutions</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Role: Junior Project Manager</h6>
+                                <p class="card-text">
+                                    Planned, organized, and managed the overall property preservation and light construction development
+                                    of foreclosed residential homes throughout the US.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Granted Peace Services</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Role: Telecommunications Technician</h6>
+                                <p class="card-text">
+                                    Responsible for installing, maintaining, and repairing rack terminal equipment and interconnecting and distributing cables.
+                                    Documented and maintained log chars and testing data for new installations, upgrades, and maintenance calls.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Dreyke/Dreyke.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+    <!-- footer section -->
+    <div class="footer-container">
+        <div class="footer">
+            <div class="footer-nav-phone">
+                Phone:<a class="phone-number" href="tel:+17632225787">
+                +1 7632225787
+            </a>
+            </div>
 
-### Support or Contact
+            <div class="footer-nav-email">
+                Email: <a class="email" href="mailto:dreykeb@protonmail.com">
+                dreykeb@protonmail.com
+            </a>
+            </div>
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+            <div class="footer-nav-github">
+                Github: <a class="email" href="https://github.com/Dreyke">
+                Github/Dreyke
+            </a>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="Home-jQuery.js"></script>
+</body>
+</html>
