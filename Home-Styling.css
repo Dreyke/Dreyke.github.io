@@ -60,6 +60,11 @@ body {
 }
 
 /* button styling */
+.btn-text {
+    color: #D5DBE3;
+}
+
+
 .description {
     position: absolute;
     top: 30%;
