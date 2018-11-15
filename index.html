@@ -11,7 +11,7 @@
             integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
             integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="Home-Styling.css"/>
+    <link rel="stylesheet" type="text/css" href="styles/Home-Styling.css"/>
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400" rel="stylesheet">
 
 
@@ -19,6 +19,7 @@
 </head>
 <body>
 
+<!-- TODO add link to the contact part of the page ++ add smooth navigation when click -->
     <!-- Navigation bar -->
     <nav class="navbar navbar-expand-lg fixed-top">
         <a class="navbar-brand" href="#">Dreyke Boone</a>
@@ -35,6 +36,8 @@
         </div>
     </nav>
 
+<!-- TODO add jquery to have Hello cycled through a couple different languages then stop on English -->
+<!-- TODO think about brand and pick better phrases.
     <!-- header -->
     <header class="header">
         <div class="overlay"></div>
@@ -42,9 +45,9 @@
             <div class="description text-center">
                 <h2>
                     Hello. I am Dreyke.
-                    <p>
+                    <h6>
                         Software Engineer. IT Specialist. Project Manager.
-                    </p>
+                    </h6>
 
                     <!-- this button currently doesn't function. Will add functionality latter -->
                     <button class="btn btn-outline-secondary">
@@ -55,13 +58,14 @@
         </div>
     </header>
 
+<!-- TODO create a better about section. This should really be where I create a branch -->
     <!-- About section -->
     <div class="about" id="about">
         <div class="container">
             <h1 class="text-center">About</h1>
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12">
-                    <img src="about-headshot.png" class="img-fluid">
+                    <img src="img/about-headshot.png" class="img-fluid">
                     <span class="text-justify">Technical Project Specialist</span>
                 </div>
                 <div class="col-lg-8 col-md-8 col-sm-12 desc">
@@ -70,7 +74,7 @@
                     <p>
                         Based in Minneapolis, MN, I’m fortunate enough to be working as a technical project specialist
                         for G2Planet while completing my degree in Software Development. Over the past 7 years, I’ve
-                        worked in residential foreclosure markets, both residential and commercial security,
+                        worked in residential foreclosure markets, residential and commercial security,
                         telecommunications, creative arts, commercial real estate development, information technology
                         for a non-profit, and software development. This has lead to skills in Python, Java, JavaScript, C#,
                         PostgreSQL, Agile & Waterfall methodologies, and more.
@@ -81,6 +85,7 @@
         </div>
     </div>
 
+<!-- TODO enhance and create a more descriptive portfolio section. Code snippets, description of problems, etc.. -->
     <!-- portfolio section -->
     <div class="projects" id="projects">
             <h1 class="text-center">Projects</h1>
@@ -163,6 +168,7 @@
             </div>
     </div>
 
+<!-- TODO create a better footer-->
     <!-- footer section -->
     <div class="footer-container">
         <div class="footer">
@@ -186,6 +192,6 @@
         </div>
     </div>
 
-    <script type="text/javascript" src="Home-jQuery.js"></script>
+    <script type="text/javascript" src="js/Home-jQuery.js"></script>
 </body>
 </html>
