@@ -83,6 +83,15 @@ a:link, a:visited {
   font-family: 'Omega Sans Regular';
 }
 
+.menu-links li {
+  background: linear-gradient(currentColor, currentColor) bottom / 0 .1em no-repeat;
+  transition: 0.3s background-size;
+}
+
+.menu-links li:hover {
+	background-size: 100% .1em;
+}
+
 .nav-img {
   display: flex;
   justify-content: center;
@@ -314,7 +323,7 @@ footer .footer-content .contact h2 {
   width: 50%;
 }
 
-.contact a {
+.footer-contact-btn {
   background-color: #EE4493;
   font-size: 18px;
   text-align: center;
@@ -322,6 +331,8 @@ footer .footer-content .contact h2 {
   border-radius: 8px;
   width: 100%;
   display: block;
+  border: none;
+  color: #fff;
 }
 
 footer .footer-content ul {
