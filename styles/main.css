@@ -286,6 +286,11 @@ footer {
   max-width: 1140px;
 }
 
+.divider {
+  border-top: 1px solid hsla(0, 0%, 100%, .2);
+  margin-bottom: 25px;
+}
+
 .footer-content {
   display: flex;
   flex-direction: row;
