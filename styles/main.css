@@ -8,29 +8,29 @@ body {
 @font-face {
   font-family: 'Omega Sans Bold';
   src: local('Omega Sans Bold'), url('C:/Users/dreyk/OneDrive/Desktop/porfolio-GIT413/styles/fonts/webfontkit-20210328-184557/Omega Sans Bold.otf') format('otf');
-  src: url('styles/fonts/webfontkit-20210328-184557/omega_sans_bold-webfont.woff2') format('woff2'),
-       url('styles/fonts/webfontkit-20210328-184557/omega_sans_bold-webfont.woff') format('woff');
+  src: url('../styles/fonts/webfontkit-20210328-184557/omega_sans_bold-webfont.woff2') format('woff2'),
+       url('../styles/fonts/webfontkit-20210328-184557/omega_sans_bold-webfont.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Omega Sans Light';
     src: local('Omega Sans Light'), url('C:/Users/dreyk/OneDrive/Desktop/porfolio-GIT413/styles/fonts/webfontkit-20210328-184557/Omega Sans Light.otf') format('otf');
-    src: url('styles/fonts/webfontkit-20210328-184557/omega_sans_light-webfont.woff2') format('woff2'),
-         url('styles/fonts/webfontkit-20210328-184557/omega_sans_light-webfont.woff') format('woff');
+    src: url('../styles/fonts/webfontkit-20210328-184557/omega_sans_light-webfont.woff2') format('woff2'),
+         url('../styles/fonts/webfontkit-20210328-184557/omega_sans_light-webfont.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Omega Sans Medium';
     src: local('Omega Sans Medium'), url('C:/Users/dreyk/OneDrive/Desktop/porfolio-GIT413/styles/fonts/webfontkit-20210328-184557/Omega Sans Medium.otf') format('otf');
-    src: url('styles/fonts/webfontkit-20210328-184557/omega_sans_medium-webfont.woff2') format('woff2'),
-         url('styles/fonts/webfontkit-20210328-184557/omega_sans_medium-webfont.woff') format('woff');
+    src: url('../styles/fonts/webfontkit-20210328-184557/omega_sans_medium-webfont.woff2') format('woff2'),
+         url('../styles/fonts/webfontkit-20210328-184557/omega_sans_medium-webfont.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Omega Sans Regular';
     src: local('Omega Sans Regular'), url('C:/Users/dreyk/OneDrive/Desktop/porfolio-GIT413/styles/fonts/webfontkit-20210328-184557/Omega Sans Regular.otf') format('otf');
-    src: url('styles/fonts/webfontkit-20210328-184557/omega_sans_regular-webfont.woff2') format('woff2'),
-         url('styles/fonts/webfontkit-20210328-184557/omega_sans_regular-webfont.woff') format('woff');
+    src: url('../styles/fonts/webfontkit-20210328-184557/omega_sans_regular-webfont.woff2') format('woff2'),
+         url('../styles/fonts/webfontkit-20210328-184557/omega_sans_regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
