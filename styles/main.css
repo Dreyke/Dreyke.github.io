@@ -1,6 +1,6 @@
 /* Global Styling */
 body {
-  background-color: #2C358D;
+  background-image: linear-gradient(-190deg, #4801FF 0%, #7918F2 38%, #AC32E4 100%);
   color: #FFF;
   font-family: 'Omega Sans Light';
 }
@@ -37,7 +37,6 @@ body {
 
 section {
   margin: 0 auto;
-  padding: 100px 0;
   max-width: 60%;
 }
 
@@ -57,8 +56,16 @@ a:link, a:visited {
   padding: 30px 10%;
 }
 
+.header-name {
+  font-size: 24px;
+  letter-spacing: 0.1em;
+  position: relative;
+  z-index: 1000;
+  font-family: 'Omega Sans Regular';
+}
+
 .supplemental-logo {
-  width: 100px;
+  width: 120px;
 }
 
 .menu-links {
@@ -101,6 +108,7 @@ a:link, a:visited {
 /* Intro Web View */
 .intro-section {
   min-height: 60vh;
+  padding: 10% 0;
 }
 
 .main-logo {
@@ -144,22 +152,31 @@ a:link, a:visited {
 }
 
 .contact-btn {
-  box-shadow: 0 2px 4px #333;
+  box-shadow: 0 0 10px #333;
   height: 40px;
-  width: 147px;
+  width: 167px;
   color: #FFF;
   border: none;
   border-radius: 30px;
-  background: #EE4493;
+  background: rgb(237, 72, 95);
+  /*background: rgb(131,58,180);
+  background: linear-gradient(34deg, rgba(131,58,180,0.9472163865546218) 0%, rgba(253,29,29,1) 30%, rgba(252,176,69,0.9444152661064426) 100%);*/
   margin-top: 40px;
   font-family: 'Omega Sans Regular';
   font-size: 20px;
   display: inline-flex;
   align-items: center;
   justify-content: space-around;
+  transition: background 1.2s;
 }
 
+
+
 /* About Me Web View */
+.about-section {
+  padding: 2% 0;
+}
+
 .handsome-gentleman {
   width: 350px;
 }
@@ -197,6 +214,10 @@ a:link, a:visited {
 }
 
 /* Projects Web View */
+.projects-section {
+  padding: 12% 0 0 0;
+}
+
 .works-title {
   padding: 50px;
   text-align: center;
@@ -215,7 +236,7 @@ a:link, a:visited {
   position: relative;
   margin-bottom: 80px;
   border-radius: 20px;
-  background-color: #FFF;
+  background-color: rgb(255, 255, 255);
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
               0 6.7px 5.3px rgba(0, 0, 0, 0.048),
               0 12.5px 10px rgba(0, 0, 0, 0.06),
@@ -270,7 +291,7 @@ a:link, a:visited {
   border-radius: 24px;
   line-height: 40px;
   color: #fff;
-  background: #EE4493;
+  background: rgb(237, 72, 95);
   box-shadow: -4px -4px 10px rgb(255 255 255 / 80%), 4px 4px 10px rgb(0 0 0 / 20%);
   width: 147px;
   height: 40px;
@@ -335,15 +356,20 @@ footer .footer-content .contact h2 {
 }
 
 .footer-contact-btn {
-  background-color: #EE4493;
+  background: transparent;
+  border: 2px solid #ed485f;
   font-size: 18px;
   text-align: center;
   padding: 12px 24px;
   border-radius: 8px;
   width: 100%;
   display: block;
-  border: none;
   color: #fff;
+  transition: background .5s;
+}
+
+.footer-contact-btn:hover {
+  background: #ed485f;
 }
 
 footer .footer-content ul {
